@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نتایج فوتبال</title>
+<style>
+:root { --bg:#fff; --card:#f3f4f6; --text:#111; --muted:#666; --accent:#e8710a; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0d1117; --card:#161b22; --text:#e6edf3; --muted:#8b949e; }
+}
+body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); }
+main { max-width:640px; margin:0 auto; padding:16px; }
+h1 { font-size:22px; margin:0 0 4px; }
+h2 { font-size:16px; color:var(--accent); margin:24px 0 4px; }
+h3 { font-size:13px; color:var(--muted); margin:12px 0 6px; }
+.updated { color:var(--muted); font-size:13px; }
+.match { direction:ltr; display:grid; grid-template-columns:1fr 84px 1fr; gap:8px; align-items:center; background:var(--card); border-radius:10px; padding:10px 12px; margin-bottom:6px; }
+.home { text-align:right; }
+.away { text-align:left; }
+.mid { text-align:center; font-weight:700; }
+.mid small { display:block; font-weight:400; font-size:11px; color:var(--muted); }
+.mid small.live { color:#e5484d; }
+</style>
+</head>
+<body>
+<main>
+  <h1>⚽ نتایج فوتبال</h1>
+  <div class="updated" id="updated">در حال بارگذاری...</div>
+  <div id="list"></div>
+</main>
+<script>
+const STATUS = {
+  FINISHED: "پایان", AWARDED: "پایان", IN_PLAY: "زنده", PAUSED: "زنده",
+  POSTPONED: "تعویق", SUSPENDED: "متوقف", CANCELLED: "لغو",
+};
+const fa = (n) => Number(n).toLocaleString("fa-IR");
+const el = (tag, cls, text) => {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+};
+
+function row(m) {
+  const r = el("div", "match");
+  r.append(el("div", "home", m.home || "؟"));
+  const mid = el("div", "mid");
+  if (m.homeGoals !== null && m.awayGoals !== null) {
+    mid.append(fa(m.homeGoals) + " - " + fa(m.awayGoals));
+  } else {
+    mid.append(new Date(m.date).toLocaleTimeString("fa-IR", { hour: "2-digit", minute: "2-digit" }));
+  }
+  const label = STATUS[m.status];
+  if (label) mid.append(el("small", label === "زنده" ? "live" : "", label));
+  r.append(mid);
+  r.append(el("div", "away", m.away || "؟"));
+  return r;
+}
+
+async function load() {
+  const box = document.getElementById("list");
+  try {
+    const res = await fetch("data/matches.json?t=" + Date.now());
+    const data = await res.json();
+    document.getElementById("updated").textContent =
+      "آخرین به‌روزرسانی: " + new Date(data.updatedAt).toLocaleString("fa-IR");
+    const matches = [...data.matches].sort((a, b) => new Date(a.date) - new Date(b.date));
+    if (matches.length === 0) {
+      box.textContent = "بازی‌ای پیدا نشد.";
+      return;
+    }
+    const days = new Map();
+    for (const m of matches) {
+      const day = new Date(m.date).toLocaleDateString("fa-IR", { weekday: "long", month: "long", day: "numeric" });
+      if (!days.has(day)) days.set(day, new Map());
+      const comps = days.get(day);
+      const comp = m.competition || "سایر";
+      if (!comps.has(comp)) comps.set(comp, []);
+      comps.get(comp).push(m);
+    }
+    for (const [day, comps] of days) {
+      box.append(el("h2", "", day));
+      for (const [comp, list] of comps) {
+        box.append(el("h3", "", comp));
+        list.forEach((m) => box.append(row(m)));
+      }
+    }
+  } catch (e) {
+    box.textContent = "خطا در بارگذاری داده‌ها. چند دقیقه‌ی دیگه دوباره امتحان کن.";
+  }
+}
+load();
+</script>
+</body>
+</html>
