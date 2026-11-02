@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T15:46:40.925Z",
+  "updatedAt": "2026-11-02T17:27:00.933Z",
   "matches": [
     {
       "id": 558849,
@@ -202,22 +202,22 @@
       "awayGoals": 1
     },
     {
-      "id": 559645,
-      "competition": "Ligue 1",
-      "date": "2026-11-01T19:45:00Z",
-      "status": "FINISHED",
-      "home": "Marseille",
-      "away": "Toulouse",
-      "homeGoals": 2,
-      "awayGoals": 0
-    },
-    {
       "id": 558547,
       "competition": "Serie A",
       "date": "2026-11-01T19:45:00Z",
       "status": "FINISHED",
       "home": "Juventus",
       "away": "Napoli",
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "id": 559645,
+      "competition": "Ligue 1",
+      "date": "2026-11-01T19:45:00Z",
+      "status": "FINISHED",
+      "home": "Marseille",
+      "away": "Toulouse",
       "homeGoals": 2,
       "awayGoals": 0
     },
@@ -252,22 +252,22 @@
       "awayGoals": null
     },
     {
-      "id": 558545,
-      "competition": "Serie A",
-      "date": "2026-11-02T19:45:00Z",
-      "status": "TIMED",
-      "home": "Atalanta",
-      "away": "Parma",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 559641,
       "competition": "Ligue 1",
       "date": "2026-11-02T19:45:00Z",
       "status": "TIMED",
       "home": "Lorient",
       "away": "Brest",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 558545,
+      "competition": "Serie A",
+      "date": "2026-11-02T19:45:00Z",
+      "status": "TIMED",
+      "home": "Atalanta",
+      "away": "Parma",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -292,22 +292,22 @@
       "awayGoals": null
     },
     {
-      "id": 567346,
-      "competition": "Primeira Liga",
-      "date": "2026-11-02T20:15:00Z",
-      "status": "TIMED",
-      "home": "Gil Vicente",
-      "away": "Vitória SC",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 567342,
       "competition": "Primeira Liga",
       "date": "2026-11-02T20:15:00Z",
       "status": "TIMED",
       "home": "SL Benfica",
       "away": "Alverca",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 567346,
+      "competition": "Primeira Liga",
+      "date": "2026-11-02T20:15:00Z",
+      "status": "TIMED",
+      "home": "Gil Vicente",
+      "away": "Vitória SC",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -338,16 +338,6 @@
       "status": "TIMED",
       "home": "Galatasaray",
       "away": "Stuttgart",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 561920,
-      "competition": "Championship",
-      "date": "2026-11-03T19:45:00Z",
-      "status": "TIMED",
-      "home": "QPR",
-      "away": "Burnley",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -392,6 +382,16 @@
       "awayGoals": null
     },
     {
+      "id": 561920,
+      "competition": "Championship",
+      "date": "2026-11-03T19:45:00Z",
+      "status": "TIMED",
+      "home": "QPR",
+      "away": "Burnley",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
       "id": 561921,
       "competition": "Championship",
       "date": "2026-11-03T19:45:00Z",
@@ -408,16 +408,6 @@
       "status": "TIMED",
       "home": "Preston NE",
       "away": "Sheffield Utd",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 575383,
-      "competition": "UEFA Champions League",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED",
-      "home": "Man United",
-      "away": "Roma",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -448,6 +438,16 @@
       "status": "TIMED",
       "home": "Atleti",
       "away": "Bayern",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 575383,
+      "competition": "UEFA Champions League",
+      "date": "2026-11-03T20:00:00Z",
+      "status": "TIMED",
+      "home": "Man United",
+      "away": "Roma",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -542,16 +542,6 @@
       "awayGoals": null
     },
     {
-      "id": 561925,
-      "competition": "Championship",
-      "date": "2026-11-04T19:45:00Z",
-      "status": "TIMED",
-      "home": "Cardiff",
-      "away": "West Ham",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 561927,
       "competition": "Championship",
       "date": "2026-11-04T19:45:00Z",
@@ -562,12 +552,12 @@
       "awayGoals": null
     },
     {
-      "id": 575393,
-      "competition": "UEFA Champions League",
-      "date": "2026-11-04T20:00:00Z",
+      "id": 561925,
+      "competition": "Championship",
+      "date": "2026-11-04T19:45:00Z",
       "status": "TIMED",
-      "home": "RC Lens",
-      "away": "Como 1907",
+      "home": "Cardiff",
+      "away": "West Ham",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -602,12 +592,12 @@
       "awayGoals": null
     },
     {
-      "id": 575388,
+      "id": 575393,
       "competition": "UEFA Champions League",
       "date": "2026-11-04T20:00:00Z",
       "status": "TIMED",
-      "home": "RB Leipzig",
-      "away": "Man City",
+      "home": "RC Lens",
+      "away": "Como 1907",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -638,6 +628,16 @@
       "status": "TIMED",
       "home": "Porto",
       "away": "Napoli",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 575388,
+      "competition": "UEFA Champions League",
+      "date": "2026-11-04T20:00:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "Man City",
       "homeGoals": null,
       "awayGoals": null
     },
