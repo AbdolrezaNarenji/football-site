@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T00:33:57.275Z",
+  "updatedAt": "2026-11-08T07:17:34.780Z",
   "matches": [
     {
       "id": 560632,
@@ -112,6 +112,16 @@
       "awayGoals": 1
     },
     {
+      "id": 561940,
+      "competition": "Championship",
+      "date": "2026-11-07T15:00:00Z",
+      "status": "FINISHED",
+      "home": "Birmingham",
+      "away": "Swansea",
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
       "id": 561936,
       "competition": "Championship",
       "date": "2026-11-07T15:00:00Z",
@@ -148,16 +158,6 @@
       "status": "FINISHED",
       "home": "QPR",
       "away": "Lincoln City",
-      "homeGoals": 2,
-      "awayGoals": 1
-    },
-    {
-      "id": 561940,
-      "competition": "Championship",
-      "date": "2026-11-07T15:00:00Z",
-      "status": "FINISHED",
-      "home": "Birmingham",
-      "away": "Swansea",
       "homeGoals": 2,
       "awayGoals": 1
     },
