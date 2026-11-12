@@ -1,4 +1,25 @@
 {
-  "updatedAt": "2026-11-11T21:55:56.883Z",
-  "matches": []
+  "updatedAt": "2026-11-12T02:57:36.404Z",
+  "matches": [
+    {
+      "id": 555085,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-14T21:30:00Z",
+      "status": "TIMED",
+      "home": "Mirassol",
+      "away": "Mineiro",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 554942,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-14T23:30:00Z",
+      "status": "TIMED",
+      "home": "Chapecoense",
+      "away": "Vasco da Gama",
+      "homeGoals": null,
+      "awayGoals": null
+    }
+  ]
 }
