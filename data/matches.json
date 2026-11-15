@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T09:22:21.218Z",
+  "updatedAt": "2026-11-15T17:07:37.398Z",
   "matches": [
     {
       "id": 555085,
@@ -15,11 +15,11 @@
       "id": 554942,
       "competition": "Campeonato Brasileiro Série A",
       "date": "2026-11-14T23:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": "Chapecoense",
       "away": "Vasco da Gama",
       "homeGoals": 0,
-      "awayGoals": 1
+      "awayGoals": 2
     }
   ]
 }
