@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:27:26.810Z",
+  "updatedAt": "2026-11-17T03:50:54.110Z",
   "matches": [
     {
       "id": 555081,
@@ -22,6 +22,16 @@
       "awayGoals": null
     },
     {
+      "id": 555082,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-18T23:30:00Z",
+      "status": "TIMED",
+      "home": "Cruzeiro",
+      "away": "Palmeiras",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
       "id": 555083,
       "competition": "Campeonato Brasileiro Série A",
       "date": "2026-11-18T23:30:00Z",
@@ -32,12 +42,42 @@
       "awayGoals": null
     },
     {
-      "id": 555082,
+      "id": 555084,
       "competition": "Campeonato Brasileiro Série A",
-      "date": "2026-11-18T23:30:00Z",
+      "date": "2026-11-19T00:30:00Z",
       "status": "TIMED",
-      "home": "Cruzeiro",
-      "away": "Palmeiras",
+      "home": "Grêmio",
+      "away": "Bahia",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 555080,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-19T00:30:00Z",
+      "status": "TIMED",
+      "home": "Corinthians",
+      "away": "Botafogo",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 555088,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-19T22:30:00Z",
+      "status": "TIMED",
+      "home": "Vasco da Gama",
+      "away": "Internacional",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 555089,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-19T22:30:00Z",
+      "status": "TIMED",
+      "home": "Vitória",
+      "away": "Bragantino",
       "homeGoals": null,
       "awayGoals": null
     }
