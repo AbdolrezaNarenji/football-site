@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T03:24:33.058Z",
+  "updatedAt": "2026-11-19T13:00:28.827Z",
   "matches": [
     {
       "id": 555081,
@@ -22,22 +22,22 @@
       "awayGoals": 0
     },
     {
-      "id": 555083,
-      "competition": "Campeonato Brasileiro Série A",
-      "date": "2026-11-18T23:30:00Z",
-      "status": "FINISHED",
-      "home": "Flamengo",
-      "away": "Paranaense",
-      "homeGoals": 2,
-      "awayGoals": 1
-    },
-    {
       "id": 555082,
       "competition": "Campeonato Brasileiro Série A",
       "date": "2026-11-18T23:30:00Z",
-      "status": "FINISHED",
+      "status": "IN_PLAY",
       "home": "Cruzeiro",
       "away": "Palmeiras",
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "id": 555083,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-18T23:30:00Z",
+      "status": "IN_PLAY",
+      "home": "Flamengo",
+      "away": "Paranaense",
       "homeGoals": 2,
       "awayGoals": 1
     },
@@ -45,7 +45,7 @@
       "id": 555084,
       "competition": "Campeonato Brasileiro Série A",
       "date": "2026-11-19T00:30:00Z",
-      "status": "FINISHED",
+      "status": "IN_PLAY",
       "home": "Grêmio",
       "away": "Bahia",
       "homeGoals": 0,
@@ -55,21 +55,11 @@
       "id": 555080,
       "competition": "Campeonato Brasileiro Série A",
       "date": "2026-11-19T00:30:00Z",
-      "status": "FINISHED",
+      "status": "IN_PLAY",
       "home": "Corinthians",
       "away": "Botafogo",
-      "homeGoals": 4,
+      "homeGoals": 2,
       "awayGoals": 0
-    },
-    {
-      "id": 555088,
-      "competition": "Campeonato Brasileiro Série A",
-      "date": "2026-11-19T22:30:00Z",
-      "status": "TIMED",
-      "home": "Vasco da Gama",
-      "away": "Internacional",
-      "homeGoals": null,
-      "awayGoals": null
     },
     {
       "id": 555089,
@@ -78,6 +68,16 @@
       "status": "TIMED",
       "home": "Vitória",
       "away": "Bragantino",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 555088,
+      "competition": "Campeonato Brasileiro Série A",
+      "date": "2026-11-19T22:30:00Z",
+      "status": "TIMED",
+      "home": "Vasco da Gama",
+      "away": "Internacional",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -122,12 +122,12 @@
       "awayGoals": null
     },
     {
-      "id": 561950,
+      "id": 561944,
       "competition": "Championship",
       "date": "2026-11-21T12:30:00Z",
       "status": "SCHEDULED",
-      "home": "Millwall",
-      "away": "QPR",
+      "home": "Southampton",
+      "away": "Derby County",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -152,12 +152,12 @@
       "awayGoals": null
     },
     {
-      "id": 561944,
+      "id": 561950,
       "competition": "Championship",
       "date": "2026-11-21T12:30:00Z",
       "status": "SCHEDULED",
-      "home": "Southampton",
-      "away": "Derby County",
+      "home": "Millwall",
+      "away": "QPR",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -172,6 +172,16 @@
       "awayGoals": null
     },
     {
+      "id": 558525,
+      "competition": "Serie A",
+      "date": "2026-11-21T14:00:00Z",
+      "status": "TIMED",
+      "home": "Como 1907",
+      "away": "Cagliari",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
       "id": 558528,
       "competition": "Serie A",
       "date": "2026-11-21T14:00:00Z",
@@ -182,12 +192,22 @@
       "awayGoals": null
     },
     {
-      "id": 558525,
-      "competition": "Serie A",
-      "date": "2026-11-21T14:00:00Z",
+      "id": 565857,
+      "competition": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
       "status": "TIMED",
-      "home": "Como 1907",
-      "away": "Cagliari",
+      "home": "Leverkusen",
+      "away": "SC Paderborn",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 565865,
+      "competition": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
+      "status": "TIMED",
+      "home": "Frankfurt",
+      "away": "Hoffenheim",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -218,96 +238,6 @@
       "status": "TIMED",
       "home": "Union Berlin",
       "away": "RB Leipzig",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 565857,
-      "competition": "Bundesliga",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED",
-      "home": "Leverkusen",
-      "away": "SC Paderborn",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 565865,
-      "competition": "Bundesliga",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED",
-      "home": "Frankfurt",
-      "away": "Hoffenheim",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 560650,
-      "competition": "Premier League",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "TIMED",
-      "home": "Coventry City",
-      "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 561945,
-      "competition": "Championship",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "home": "Bolton",
-      "away": "Portsmouth",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 561941,
-      "competition": "Championship",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "home": "Sheffield Utd",
-      "away": "Watford",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 561952,
-      "competition": "Championship",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "home": "Wolverhampton",
-      "away": "Charlton",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 560647,
-      "competition": "Premier League",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "TIMED",
-      "home": "Bournemouth",
-      "away": "Nottingham",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 561943,
-      "competition": "Championship",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "home": "Middlesbrough",
-      "away": "Bristol City",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 560648,
-      "competition": "Premier League",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "TIMED",
-      "home": "Tottenham",
-      "away": "Ipswich Town",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -372,6 +302,76 @@
       "awayGoals": null
     },
     {
+      "id": 560648,
+      "competition": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Tottenham",
+      "away": "Ipswich Town",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 560650,
+      "competition": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Coventry City",
+      "away": "Crystal Palace",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 561945,
+      "competition": "Championship",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 561941,
+      "competition": "Championship",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sheffield Utd",
+      "away": "Watford",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 561952,
+      "competition": "Championship",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton",
+      "away": "Charlton",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 560647,
+      "competition": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Bournemouth",
+      "away": "Nottingham",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 561943,
+      "competition": "Championship",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
       "id": 564751,
       "competition": "Primera Division",
       "date": "2026-11-21T15:15:00Z",
@@ -412,16 +412,6 @@
       "awayGoals": null
     },
     {
-      "id": 564756,
-      "competition": "Primera Division",
-      "date": "2026-11-21T17:30:00Z",
-      "status": "TIMED",
-      "home": "Sevilla FC",
-      "away": "Real Betis",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 565861,
       "competition": "Bundesliga",
       "date": "2026-11-21T17:30:00Z",
@@ -442,12 +432,12 @@
       "awayGoals": null
     },
     {
-      "id": 558831,
-      "competition": "Eredivisie",
-      "date": "2026-11-21T17:45:00Z",
+      "id": 564756,
+      "competition": "Primera Division",
+      "date": "2026-11-21T17:30:00Z",
       "status": "TIMED",
-      "home": "Feyenoord",
-      "away": "Excelsior",
+      "home": "Sevilla FC",
+      "away": "Real Betis",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -462,6 +452,16 @@
       "awayGoals": null
     },
     {
+      "id": 558831,
+      "competition": "Eredivisie",
+      "date": "2026-11-21T17:45:00Z",
+      "status": "TIMED",
+      "home": "Feyenoord",
+      "away": "Excelsior",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
       "id": 555098,
       "competition": "Campeonato Brasileiro Série A",
       "date": "2026-11-21T19:30:00Z",
@@ -472,12 +472,22 @@
       "awayGoals": null
     },
     {
-      "id": 559627,
+      "id": 558527,
+      "competition": "Serie A",
+      "date": "2026-11-21T19:45:00Z",
+      "status": "TIMED",
+      "home": "Napoli",
+      "away": "Torino",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 559624,
       "competition": "Ligue 1",
       "date": "2026-11-21T19:45:00Z",
       "status": "TIMED",
-      "home": "Strasbourg",
-      "away": "Brest",
+      "home": "Lille",
+      "away": "Olympique Lyon",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -502,22 +512,12 @@
       "awayGoals": null
     },
     {
-      "id": 558527,
-      "competition": "Serie A",
-      "date": "2026-11-21T19:45:00Z",
-      "status": "TIMED",
-      "home": "Napoli",
-      "away": "Torino",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 559624,
+      "id": 559627,
       "competition": "Ligue 1",
       "date": "2026-11-21T19:45:00Z",
       "status": "TIMED",
-      "home": "Lille",
-      "away": "Olympique Lyon",
+      "home": "Strasbourg",
+      "away": "Brest",
       "homeGoals": null,
       "awayGoals": null
     },
