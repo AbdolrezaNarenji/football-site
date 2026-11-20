@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T11:35:06.317Z",
+  "updatedAt": "2026-11-20T20:13:50.371Z",
   "matches": [
     {
       "id": 555084,
@@ -55,31 +55,31 @@
       "id": 565859,
       "competition": "Bundesliga",
       "date": "2026-11-20T19:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": "Bayern",
       "away": "1. FC Köln",
-      "homeGoals": null,
-      "awayGoals": null
+      "homeGoals": 1,
+      "awayGoals": 1
     },
     {
       "id": 559622,
       "competition": "Ligue 1",
       "date": "2026-11-20T19:45:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": "Troyes",
       "away": "Le Havre",
-      "homeGoals": null,
-      "awayGoals": null
+      "homeGoals": 1,
+      "awayGoals": 1
     },
     {
       "id": 564748,
       "competition": "Primera Division",
       "date": "2026-11-20T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": "Athletic",
       "away": "Espanyol",
-      "homeGoals": null,
-      "awayGoals": null
+      "homeGoals": 0,
+      "awayGoals": 0
     },
     {
       "id": 560643,
@@ -272,6 +272,16 @@
       "awayGoals": null
     },
     {
+      "id": 561952,
+      "competition": "Championship",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton",
+      "away": "Charlton",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
       "id": 560644,
       "competition": "Premier League",
       "date": "2026-11-21T15:00:00Z",
@@ -318,16 +328,6 @@
       "status": "SCHEDULED",
       "home": "Swansea",
       "away": "West Brom",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
-      "id": 561952,
-      "competition": "Championship",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "home": "Wolverhampton",
-      "away": "Charlton",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -592,22 +592,22 @@
       "awayGoals": null
     },
     {
-      "id": 558522,
-      "competition": "Serie A",
-      "date": "2026-11-22T14:00:00Z",
-      "status": "TIMED",
-      "home": "Bologna",
-      "away": "Udinese",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 558524,
       "competition": "Serie A",
       "date": "2026-11-22T14:00:00Z",
       "status": "TIMED",
       "home": "Sassuolo",
       "away": "Genoa",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 558522,
+      "competition": "Serie A",
+      "date": "2026-11-22T14:00:00Z",
+      "status": "TIMED",
+      "home": "Bologna",
+      "away": "Udinese",
       "homeGoals": null,
       "awayGoals": null
     },
