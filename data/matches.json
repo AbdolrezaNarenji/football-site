@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:31:45.713Z",
+  "updatedAt": "2026-11-21T09:47:21.376Z",
   "matches": [
     {
       "id": 555087,
@@ -162,16 +162,6 @@
       "awayGoals": null
     },
     {
-      "id": 561952,
-      "competition": "Championship",
-      "date": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "home": "Wolverhampton",
-      "away": "Charlton",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 561946,
       "competition": "Championship",
       "date": "2026-11-21T15:00:00Z",
@@ -198,6 +188,16 @@
       "status": "SCHEDULED",
       "home": "Swansea",
       "away": "West Brom",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 561952,
+      "competition": "Championship",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton",
+      "away": "Charlton",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -532,22 +532,22 @@
       "awayGoals": null
     },
     {
-      "id": 558836,
-      "competition": "Eredivisie",
-      "date": "2026-11-22T13:30:00Z",
-      "status": "TIMED",
-      "home": "Ajax",
-      "away": "Den Haag",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 558830,
       "competition": "Eredivisie",
       "date": "2026-11-22T13:30:00Z",
       "status": "TIMED",
       "home": "Sparta",
       "away": "AZ",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 558836,
+      "competition": "Eredivisie",
+      "date": "2026-11-22T13:30:00Z",
+      "status": "TIMED",
+      "home": "Ajax",
+      "away": "Den Haag",
       "homeGoals": null,
       "awayGoals": null
     },
