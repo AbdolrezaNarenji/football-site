@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T02:24:50.485Z",
+  "updatedAt": "2026-11-25T12:50:07.228Z",
   "matches": [
     {
       "id": 555099,
@@ -72,16 +72,6 @@
       "awayGoals": 1
     },
     {
-      "id": 561959,
-      "competition": "Championship",
-      "date": "2026-11-24T19:45:00Z",
-      "status": "FINISHED",
-      "home": "Bristol City",
-      "away": "Wrexham",
-      "homeGoals": 1,
-      "awayGoals": 1
-    },
-    {
       "id": 561955,
       "competition": "Championship",
       "date": "2026-11-24T19:45:00Z",
@@ -102,14 +92,14 @@
       "awayGoals": 4
     },
     {
-      "id": 575401,
-      "competition": "UEFA Champions League",
-      "date": "2026-11-24T20:00:00Z",
+      "id": 561959,
+      "competition": "Championship",
+      "date": "2026-11-24T19:45:00Z",
       "status": "FINISHED",
-      "home": "Sl. Bratislava",
-      "away": "Real Betis",
-      "homeGoals": 0,
-      "awayGoals": 2
+      "home": "Bristol City",
+      "away": "Wrexham",
+      "homeGoals": 1,
+      "awayGoals": 1
     },
     {
       "id": 575397,
@@ -140,6 +130,16 @@
       "away": "Dortmund",
       "homeGoals": 1,
       "awayGoals": 1
+    },
+    {
+      "id": 575401,
+      "competition": "UEFA Champions League",
+      "date": "2026-11-24T20:00:00Z",
+      "status": "FINISHED",
+      "home": "Sl. Bratislava",
+      "away": "Real Betis",
+      "homeGoals": 0,
+      "awayGoals": 2
     },
     {
       "id": 575402,
@@ -242,16 +242,6 @@
       "awayGoals": null
     },
     {
-      "id": 575411,
-      "competition": "UEFA Champions League",
-      "date": "2026-11-25T20:00:00Z",
-      "status": "TIMED",
-      "home": "Sporting CP",
-      "away": "Man United",
-      "homeGoals": null,
-      "awayGoals": null
-    },
-    {
       "id": 575407,
       "competition": "UEFA Champions League",
       "date": "2026-11-25T20:00:00Z",
@@ -282,12 +272,12 @@
       "awayGoals": null
     },
     {
-      "id": 575406,
+      "id": 575411,
       "competition": "UEFA Champions League",
       "date": "2026-11-25T20:00:00Z",
       "status": "TIMED",
-      "home": "Inter",
-      "away": "Stuttgart",
+      "home": "Sporting CP",
+      "away": "Man United",
       "homeGoals": null,
       "awayGoals": null
     },
@@ -318,6 +308,16 @@
       "status": "TIMED",
       "home": "Lille",
       "away": "Bayern",
+      "homeGoals": null,
+      "awayGoals": null
+    },
+    {
+      "id": 575406,
+      "competition": "UEFA Champions League",
+      "date": "2026-11-25T20:00:00Z",
+      "status": "TIMED",
+      "home": "Inter",
+      "away": "Stuttgart",
       "homeGoals": null,
       "awayGoals": null
     },
